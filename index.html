@@ -11,13 +11,14 @@
         <img src="./images/logo.svg" alt="Logo do Splitter">
     </header>
     <main>
-        <section>
+        <section class="informacoes">
             <form action="">
                 <div class="Conta">
                     <label for="Conta">Conta</label>
                     <div>
                         <img src="./images/icon-dollar.svg" alt="dinheirinho">
-                        <input type="number" name="Conta" id="Conta">
+                        <input type="number" name="Conta" id="Conta" placeholder="0">
+                        
                     </div>
                 </div> 
                 <div class="gorjeta">
@@ -28,18 +29,35 @@
                         <input type="button" value="15%">
                         <input type="button" value="25%">
                         <input type="button" value="50%">
-                        <input type="number" name="outra" id="outra">
+                        <input type="number" name="outra" id="outra" placeholder="Outra">
                     </div>
                 </div> 
                 <div class="pessoas">
-                    <label for="Conta">Quantidade de pessoas</label>
+                    <label for="pessoas">Quantidade de pessoas</label>
                     <p>Não pode ser zero (genio)</p>
                     <div>
                         <img src="./images/icon-person.svg" alt="icone da pessoa">
-                        <input type="number" name="Conta" id="Conta">
+                        <input type="number" name="Conta" id="pessoas" placeholder="0">
                     </div>
                 </div>
             </form>
+        </section>
+
+        <section class="resultados">
+            <div class="Gorjeta-total">
+                <p>
+                    <strong>Gorjeta</strong>
+                    / pessoa
+                </p>
+                <strong>$ 0.00</strong>
+            </div>
+            <div class="total">
+                <p>
+                    <strong>Gorjeta</strong>
+                    / pessoa
+                </p>
+                <strong>$ 0.00</strong>
+                </div>
         </section>
     </main>
 </body>
