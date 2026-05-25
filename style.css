@@ -127,11 +127,8 @@ main{
     align-items: center;
 }
 
-.pessoas #pessoas{
-    outline: 2px solid var(--danger);
-}
 
-.pessoas #genio{
+.pessoas #genio {
     font-size: 0.75rem;
     color: var(--danger);
     font-weight: 700;
